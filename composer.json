@@ -1,0 +1,24 @@
+{
+    "name": "gabrielbs/package-name",
+    "description": "",
+    "version": "1.0.0",
+    "keywords": [
+        "gabrielbs",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Batista",
+            "email": "contato@gabrielbs.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gabrielbs\\PackageName\\": "src/"
+        }
+    }
+}
